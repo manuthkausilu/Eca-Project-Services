@@ -1,0 +1,9 @@
+[submodule "customer-service"]
+	path = customer-service
+	url = https://github.com/manuthkausilu/Eca-Project-Service-Customer.git
+[submodule "product-service"]
+	path = product-service
+	url = https://github.com/manuthkausilu/Eca-Project-Service-Product.git
+[submodule "order-service"]
+	path = order-service
+	url = https://github.com/manuthkausilu/Eca-Project-Service-Order.git
