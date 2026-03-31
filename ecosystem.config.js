@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
-    // {
-    //   name: "cloud-sql-auth-proxy",
-    //   script: "./cloud-sql-proxy eca-project-491914:asia-southeast1:mysql-vm eca-project-491914:asia-southeast1:postgres-vm --private-ip",
-    //   log_file: "./logs/cloud-sql-auth-proxy.log",
-    // },
+    {
+      name: "cloud-sql-auth-proxy",
+      script: "./cloud-sql-proxy eca-project-491914:asia-southeast1:mysql-vm eca-project-491914:asia-southeast1:postgres-vm --private-ip",
+      log_file: "./logs/cloud-sql-auth-proxy.log",
+    },
     {
       name: "customer-service",
       script: "java -jar ./customer-service/target/Customer-Service-1.0.0.jar",
